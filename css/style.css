@@ -1,0 +1,448 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+.main {
+  height: 100vh;
+  width: 90vw;
+  position: relative;
+  margin-top: 20px;
+}
+.d1 {
+
+  position: absolute;
+  background-image: url(https://images7.alphacoders.com/618/thumb-1920-618130.jpg);
+  background-size: 2700px 960px;
+
+  height: 30vh;
+  width: 15vw;
+
+  background-position: 0 50%;
+
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.8);
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+  animation: dd1 10s 1, dd12 10s 1;
+  animation-delay: 4s, 14s;
+}
+.d2 {
+  position: absolute;
+  background-image: url(https://images7.alphacoders.com/618/thumb-1920-618130.jpg);
+  background-size: 2700px 960px;
+
+  height: 50vh;
+  width: 25vw;
+
+  background-position: -10vw 50%;
+  left: 10vw;
+
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  animation: dd2 10s 2;
+  animation-delay: 4s;
+}
+.d3 {
+  position: absolute;
+  background-image: url(https://images7.alphacoders.com/618/thumb-1920-618130.jpg);
+  background-size: 2500px 960px;
+  overflow: hidden;
+
+  height: 100vh;
+  width: 40vw;
+  left: 25vw;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.8);
+  background-position: -35vw 20%;
+
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 3;
+  animation: dd3 10s 2;
+  animation-delay: 4s;
+}
+.d4 {
+  position: absolute;
+  overflow: hidden;
+  background-image: url(https://images7.alphacoders.com/618/thumb-1920-618130.jpg);
+  background-size: 2700px 920px;
+
+  height: 80vh;
+  width: 25vw;
+  left: 60vw;
+  background-position: -70vw 20%;
+
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  animation: dd4 10s 2;
+  animation-delay: 4s;
+}
+
+@keyframes dd1 {
+  0% {
+  }
+  50% {
+    width: 95vw;
+  }
+}
+@keyframes dd12 {
+  0% {
+  }
+  50% {
+    background-position: Calc(0vw - 40px) 50%;
+  }
+}
+@keyframes dd2 {
+  0% {
+  }
+  50% {
+    background-position: Calc(-10vw - 40px) 50%;
+  }
+}
+@keyframes dd3 {
+  0% {
+  }
+  50% {
+    background-position: Calc(-35vw - 40px) 10%;
+  }
+}
+@keyframes dd4 {
+  0% {
+  }
+  50% {
+    background-position: Calc(-70vw - 40px) 10%;
+  }
+}
+html,body{
+	background-color: black;
+	height: 100%;
+}
+
+
+@keyframes animaçao{
+
+	from{width:90px;}
+	to{width:500px;}
+	
+}
+.container:hover{
+	
+	animation-name: animaçao;
+	animation-duration: 3s;
+
+}
+
+section{
+	width: 100%;
+	height: 830px;
+	
+}
+section h1{
+	text-align: center;
+	padding:60px 0;
+	color: white;
+	font-size: 75px;
+	
+	
+	
+	
+}
+section .box{
+		
+		
+ 		background-color:black ;
+ 		display: flex;
+		flex-direction: row;
+		margin:0 20%;
+ 
+}
+
+
+
+.container{
+		
+		display: inline-block;
+		color: white;
+		text-align: center;
+		border-radius: 40px;
+		width: 120px;
+		height: 500px;
+		background-image:url(http://images6.fanpop.com/image/photos/35600000/The-Originals-Klaus-Mikaelson-klaus-35627989-528-555.jpg) ;
+		background-position: Calc(0vw - 200px) ;
+		
+
+}
+.container h3{
+	color: white;
+	margin-top: 400px;
+}
+
+.hayley h3{
+	color: white;
+	margin-top: 400px;
+
+}
+
+.hayley{
+
+	display: inline-block;
+	color: white;
+	text-align: center;
+	font-size: 12px;
+	border-radius: 40px;
+	margin-left:15px;
+	width: 120px;
+	height: 500px;
+	background-image: url(https://i.pinimg.com/564x/15/f5/3a/15f53a5a69c173133ec3862c7449212a.jpg);
+	background-position: Calc(0vw - 150px) ;
+	text-align: center;
+
+
+}
+.hayley:hover{
+
+	animation-name: animaçao;
+	animation-duration: 3s;
+
+}
+.elaija{
+	max-width: 100%;
+	display: inline-block;
+	color: white;
+	text-align: center;
+	font-size: 12px;
+	margin-left:15px;
+	border-radius: 40px;
+
+
+	width: 120px;
+	height: 500px;
+	background-image: url(https://i.pinimg.com/originals/cc/92/67/cc92678e606bdcb084944d60e11fc5c5.jpg);
+	background-size: cover;
+	background-position:calc(0vw - 65px);
+	background-repeat: no-repeat;
+	text-align: center;
+
+}
+.elaija:hover{
+	
+	animation-name: animaçao;
+	animation-duration: 3s;
+
+}
+.elaija h3{
+	color: white;
+	margin-top: 400px;
+}
+.Davina h3{
+	color: white;
+	margin-top: 400px;
+
+}
+
+.Davina{
+	max-width:100%;
+	display: inline-block;
+	color: white;
+	text-align: center;
+	font-size: 12px;
+	border-radius: 40px;
+		
+	margin-left:15px;
+	width: 120px;
+	height: 500px;
+	background-image: url(https://akns-images.eonline.com/eol_images/Entire_Site/2016329/rs_1024x759-160429174243-1024-originals-davina.jb.42916.jpg?fit=around%7C1024:759&output-quality=90&crop=1024:759;center,top);
+	background-position: Calc(0vw - 500px) ;
+	text-align: center;
+
+
+}
+.Davina:hover{
+	
+	animation-name: animaçao;
+	animation-duration: 3s;
+}
+
+.rebeca h3{
+	color: white;
+	margin-top: 400px;
+
+}
+
+.rebeca{
+	max-width:100%;
+	display: inline-block;
+	color: white;
+	text-align: center;
+	font-size: 12px;
+	border-radius: 40px;
+		
+	margin-left:15px;
+	width: 120px;
+	height: 500px;
+	background-image: url(https://data.whicdn.com/images/343662998/original.jpg);
+	background-position: Calc(0vw - 370px) ;
+	
+
+	text-align: center;
+
+
+}
+.rebeca:hover{
+	
+	animation-name: animaçao;
+	animation-duration: 3s;
+}
+.Freya h3{
+	color: white;
+	margin-top: 400px;
+
+}
+
+.Freya{
+	max-width:100%;
+	display: inline-block;
+	color: white;
+	text-align: center;
+	font-size: 12px;
+	border-radius: 40px;
+
+	margin-left:15px;
+	width: 120px;
+	height: 500px;
+	background-image: url(https://observatoriodocinema.uol.com.br/wp-content/uploads/2019/08/maxresdefault-8.jpg);
+	background-position: Calc(0vw - 520px) ;
+
+	
+
+	text-align: center;
+
+
+}
+.Freya:hover{
+	
+	animation-name: animaçao;
+	animation-duration: 3s;
+}
+
+.marcel h3{
+	color: white;
+	margin-top: 400px;
+
+}
+
+.marcel{
+	max-width:100%;
+	display: inline-block;
+	color: white;
+	text-align: center;
+	font-size: 12px;
+	border-radius: 40px;
+	
+	margin-left:15px;
+	width: 120px;
+	height: 500px;
+	background-image: url(https://criticalhits.com.br/wp-content/uploads/2022/01/marcel-gerard-the-originals.jpg);
+	background-position: Calc(0vw - 400px) ;
+	background-size: 1100px 700px;
+	text-align: center;
+	
+
+}
+.marcel:hover{
+	
+	animation-name: animaçao;
+	animation-duration: 3s;
+	
+}
+
+
+
+.papel{
+	background-color: black;
+}
+.bottom{
+	display: inline-block;
+	text-align: center;
+	margin: 50px 0 ;
+	margin-left: 610px;
+	height:700px;
+	width: 380px;
+	border-radius: 20px;
+	background:rgb(84, 82, 82) ;
+	opacity: 0.40;
+	
+
+}
+
+.bottom input{
+	display: inline-block;
+	padding-left: 17px;
+	margin-top: 15px;
+	border-radius: 10px ;
+	height: 20px;
+	width:200px;
+	background-color:inherit ;
+}
+.bottom h2{
+	margin: 60px 0;
+	font-size: 30px;
+	color: black;
+}
+
+@keyframes animaçao{
+
+	from{width:200px;}
+	to{width:300px;}
+
+}
+input:hover{
+	
+	animation-name: animaçao;
+	animation-duration: 3s;
+}
+.bottom:hover{
+
+	background-color: rgb(54, 54, 54);
+	animation-name: animaçao1;
+	animation-duration: 4s;
+
+
+}
+
+button{
+	text-align: center;
+	color: gray;
+	display: inline-block;
+	padding-left: 7px;
+	margin-top: 15px;
+	border-radius: 10px 5px;
+	border-color: white;
+	height: 20px;
+	width:200px;
+
+	background-color: inherit;
+}
+button:hover{
+	animation-name: animaçao;
+	animation-duration: 3s;
+}
+
+.box h3:hover{
+	color: red;
+}
+
+@media screen and (max-width:700px){
+	section{
+		display: block;
+		margin-left: -90px;
+	}
+	section h1{
+		margin-left: 100px;
+	}
+}
